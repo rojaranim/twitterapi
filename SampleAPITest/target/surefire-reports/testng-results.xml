@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-04T23:23:50Z" name="twitter.TwitterAPITest" finished-at="2021-03-04T23:23:51Z" duration-ms="1501">
+    <groups>
+    </groups>
+    <test started-at="2021-03-04T23:23:50Z" name="Command line test" finished-at="2021-03-04T23:23:51Z" duration-ms="1501">
+      <class name="twitter.TwitterAPITest">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:twitter.TwitterAPITest@610694f1]" started-at="2021-03-04T15:23:50Z" name="setUpData" finished-at="2021-03-04T15:23:50Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpData -->
+        <test-method signature="verifyCreateTweet()[pri:1, instance:twitter.TwitterAPITest@610694f1]" started-at="2021-03-04T15:23:50Z" name="verifyCreateTweet" description="Test Create Tweet" finished-at="2021-03-04T15:23:50Z" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateTweet -->
+        <test-method signature="verifyDuplicateTweet()[pri:2, instance:twitter.TwitterAPITest@610694f1]" started-at="2021-03-04T15:23:50Z" name="verifyDuplicateTweet" description="Test not able to create tweet" finished-at="2021-03-04T15:23:50Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDuplicateTweet -->
+        <test-method signature="verifyGetTweets()[pri:3, instance:twitter.TwitterAPITest@610694f1]" started-at="2021-03-04T15:23:50Z" name="verifyGetTweets" description="Test recently created is able to fetch" finished-at="2021-03-04T15:23:50Z" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetTweets -->
+        <test-method signature="verifyNoOfTweets()[pri:4, instance:twitter.TwitterAPITest@610694f1]" started-at="2021-03-04T15:23:50Z" name="verifyNoOfTweets" description="Test able to get 20 tweets" finished-at="2021-03-04T15:23:51Z" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoOfTweets -->
+        <test-method signature="verifyMultipleTweetsAvailable(java.lang.String)[pri:5, instance:twitter.TwitterAPITest@610694f1]" started-at="2021-03-04T15:23:51Z" name="verifyMultipleTweetsAvailable" description="Test recently created is able to fetch" data-provider="test-data" finished-at="2021-03-04T15:23:51Z" duration-ms="106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData830]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMultipleTweetsAvailable -->
+        <test-method signature="verifyMultipleTweetsAvailable(java.lang.String)[pri:5, instance:twitter.TwitterAPITest@610694f1]" started-at="2021-03-04T15:23:51Z" name="verifyMultipleTweetsAvailable" description="Test recently created is able to fetch" data-provider="test-data" finished-at="2021-03-04T15:23:51Z" duration-ms="107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMultipleTweetsAvailable -->
+      </class> <!-- twitter.TwitterAPITest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- twitter.TwitterAPITest -->
+</testng-results>
