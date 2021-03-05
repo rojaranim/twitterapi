@@ -20,7 +20,7 @@ public class TwitterAPITest {
 
 	/**
 	 *TestNG test Verifies tweet creation, catches duplicate tweet exception and verifies
-	 *Verifies recetly created tweet and number of tweets user can get is matching
+	 *Verifies recently created tweet and number of tweets user can get is matching
 	 *Verifies recent set of tweets
 	 */
 	public String tweet = null;
