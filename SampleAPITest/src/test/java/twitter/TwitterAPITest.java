@@ -19,7 +19,9 @@ import twitter4j.TwitterException;
 public class TwitterAPITest {
 
 	/**
-	 * In order run this jUnit test you need to configure your API details in the twitter4j.properties
+	 *TestNG test Verifies tweet creation, catches duplicate tweet exception and verifies
+	 *Verifies recetly created tweet and number of tweets user can get is matching
+	 *Verifies recent set of tweets
 	 */
 	public String tweet = null;
 	 
