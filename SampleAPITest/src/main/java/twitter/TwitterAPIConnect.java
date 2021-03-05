@@ -2,7 +2,7 @@ package twitter;
 
 
 /**
- * 
+ * This is class methods provides connection to Twitter APIs,Creates tweet and Gets timeline
  */
 
 
